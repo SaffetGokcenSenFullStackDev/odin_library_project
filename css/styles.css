@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+#add-book-button {
+    margin-left: 0.22%;
+}
+
+#add-book-form {
+    display: none;
+}
+
+#close-form-button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#close-form-button:hover {
+    background-color: orange;
+}
+
+#submit-book-info {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#submit-book-info:hover {
+    background-color: yellowgreen;
+}
+
+#book-list {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.parent-div {
+    border-style: ridge;
+    border-color: rgb(163, 126, 197);
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.book-buttons {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-info {
+    margin-left: 1%;
+    flex: 2;
+}
+
+.book-info > p {
+    margin: 3%;
+}
+
+.book-info > p:first-child {
+    margin-top: 1%;
+}
+
+.book-info > p:last-child {
+    margin-bottom: 1%;
+}
